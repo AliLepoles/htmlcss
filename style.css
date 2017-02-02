@@ -1,0 +1,76 @@
+body{
+  font-size: 25px;
+}
+
+h1{
+  background: #f1f1f1;
+  color: #a2a2a2;
+}
+
+section p{
+  color: red;
+}
+
+/*premier p*/
+section p:first-child{
+  color: green;
+}
+
+/*dernier p*/
+section p:last-child{
+  color: #00FF00
+}
+
+/*les p pairs*/
+section p:nth-child(even){
+  color : #0000ff;
+}
+
+/*les p impairs*/
+section p:nth-child(odd){
+  color: #F50012
+}
+
+/*les p en position 3 et 9*/
+section p:nth-child(3), section p:nth-child(9){
+  color: #ff9900;
+}
+
+/*On selectionne une CLASS avec un point.*/
+.zone1{
+  color: #F4129E;
+}
+
+.zone2{
+  color: #805858;
+}
+
+.lime{
+  color: #05ff05;
+}
+
+/*On séléctionne un ID avec un # devant Le nomde l'ID*/
+#zone3{
+  background-color: #F6F6F6;
+    color: #848b45;
+}
+
+/*Ajouter du contenu après ou avant l'id zone3*/
+#zone3:after{
+  content:" ajoutadar avantas";
+}
+
+#zone3:before{
+  content:"soy vientas apretas ";
+}
+
+/*appliquer une mise en forme au contenu dans la balise span imbriquée dans la classe zone4*/
+.zone4 span{
+  color: #f50ff7;
+  background: #aadc66;
+}
+
+li:nth-child(2){
+  background: #FF3333;
+  color: #FFFFFF;
+}
