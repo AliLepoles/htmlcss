@@ -1,3 +1,5 @@
+# Les attributs en CSS/html
+
 Le CSS ne se trouve pas dans le meme fichier que l'HTML. Faut donc bien trouver des combines pour les faire s'entendre.
 
 Pour définir a quel éléments HTLM on applique quel mise en page CSS on doit utiliser des sélecteurs d'atributs.
