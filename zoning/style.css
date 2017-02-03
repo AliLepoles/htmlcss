@@ -1,0 +1,36 @@
+body{
+    width: 80%;
+    /*Affichage du body sur 80% de la taille écran. utiliser les pourcentages permet facilement le responsive wlh*/
+    margin: 10px auto;
+    font-family: cursive;
+}
+
+#container{
+    background-color: #FD1111
+}
+
+header, footer{
+    height: 80px;
+    background: #EE2560;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.nav{
+    height: 40px;
+    background: #4a1a2c;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+
+.centre{
+    border: 20px solid #787746;
+    background: #e6e2af;
+    height: 500px;
+    text-align: center;
+}
+p{
+    margin: 0;
+}
