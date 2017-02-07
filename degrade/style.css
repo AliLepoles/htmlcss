@@ -1,8 +1,0 @@
-section{
-    background: linear-gradient(to  left, #FF0000, #FF0000, #FFFFFF, #FFFFFF, #0000FF, #0000FF);
-/*los degradados mesuras las primera coloras y la dernieras coloras dy gochos as droitas (propriedar to gochos)*/
-width: 50%;
-height: 45em;
-margin: 0 auto;
-border-radius: 50%;
-}
