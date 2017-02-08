@@ -1,0 +1,13 @@
+h1, h3, div, a, p, span, aside, section{
+    text-align: center;
+    border: 1px solid;
+}
+
+a{
+    display: block;
+}
+/*display force l'affichage en BLOCK ou en INLINE d'un élément*/
+
+h1{
+    display: inline;
+}
