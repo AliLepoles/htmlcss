@@ -11,6 +11,7 @@ nav ul{
     nav ul li{/*elements le de la liste ul située dans la balise <nav>*/
     float: left;
     list-style: none;
+    width: 10em;
         }
         nav ul ul{/*Listes imbriquées dans des listes ul*/
             display: none; /*masque les sous listes ul*/
@@ -31,4 +32,3 @@ nav ul{
         nav li:hover, nav li.menu-2:hover{
             background: #fda500;
         }
-        
